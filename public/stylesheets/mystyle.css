@@ -203,23 +203,19 @@ ul,li {list-style-type:none; text-transform:capitalize;}
 }
 /***************************************/
 /*首页input*/
-.bar6 input {
+.bar6{
+    margin-top:50px;
+    text-align:center;
+}
+
+.myinput{
+    width:50%;
+    height:42px;
+    padding-left:13px;
     border:2px solid #ffff93;
     border-radius:5px;
     background:transparent;
-    top:0;
-    right:0;
-}
-
-input,button {
-    border:none;
     outline:none;
-}
-
-.myinput {
-    width:70%;
-    height:42px;
-    padding-left:13px;
 }
 
 .mybutton{
@@ -227,11 +223,22 @@ input,button {
     width:50px;
     cursor:pointer;
     position:absolute;
-    right:30%;
+    right:25%;
     font-size:15px;
     color:#000000;
     background:#ffff93;
     border-radius:0 5px 5px 0;
+    border:none;
+    outline:none;
+}
+
+@media screen and (max-width: 768px){
+    .myinput{
+        width:80%;
+    }
+    .mybutton{
+        right:6%;
+    }
 }
 
 /*推荐页input*/
@@ -247,6 +254,8 @@ input,button {
     width:100%;
     height:42px;
     padding-left:13px;
+    border:none;
+    outline:none;
 }
 
 .mybutton1{
@@ -259,6 +268,8 @@ input,button {
     color:#000000;
     background:#9acfea;
     border-radius:0 5px 5px 0;
+    border:none;
+    outline:none;
 }
 
 /*导航栏*/
@@ -403,6 +414,7 @@ input,button {
     border:2px solid #9acfea;
     border-radius:5px;
     background:transparent;
+    outline:none;
 }
 
 .mybutton2{
@@ -415,11 +427,8 @@ input,button {
     color:#000000;
     background:#9acfea;
     border-radius:0 5px 5px 0;
-}
-
-.mytitle{
-    text-align: center;
-    font-size:40px;
+    border:none;
+    outline:none;
 }
 
 @media screen and (max-width: 768px){
@@ -433,6 +442,11 @@ input,button {
     .mytitle{
         font-size: 24px;
     }
+}
+
+.mytitle{
+    text-align: center;
+    font-size:40px;
 }
 
 .mysubtitle{

@@ -38,21 +38,29 @@ html
                         li
                             a
                                 span(data-toggle='modal' data-target='#mymodalfb' style='color:black').glyphicon 网站反馈
-        .container(style='margin-top:70px;text-align:center;')
+        .container(style='margin-top:70px')
             .row
-                .row
-                    img.imgsize(src='../images/main.png')
-                .row
-                    h2(style='margin: 40px 20px 0px;font-size: 1.3em;color: #fff;') 简约，纯粹，电影小站
-                .row
-                    h4(style='margin:20px;font-size: 1.0em;color: #fff;') 崇尚自由，追求简约
-                .row
-                    button.btn.btn-primary 注册
-                    button.btn.btn-primary(style='margin-left:5px') 登录
-                .row
-                    .bar6
-                        input.myinput(placeholder="影片名称")
-                        button.mybutton 搜索
+                .col-md-7
+                    .row
+                        img.imgsize(src='../images/main.png')
+                    .row
+                        h2(style='margin: 40px 20px 0px;font-size: 1.3em;color: #fff;') 简约，纯粹，电影小站
+                    .row
+                        h4(style='margin:20px;font-size: 1.0em;color: #fff;') 崇尚自由，追求简约
+                    .row
+                        .bar6
+                            input.myinput(placeholder="影片名称")
+                            button.mybutton 搜索
+                .col-md-5
+                    div
+                        img(src='../images/logo.jpg' style='margin-left:20px;width:150px;height:150px;')
+                        p(style='margin:0px 20px 20px 58px') 伟大始于渺小
+                        p(style='margin:30px 20px 10px 38px; font-size: 1.3em;') 建于2017.5.18
+                        p(style='margin:0px 20px 10px 15px') 无甚作为，但不想无所事事
+                        p(style='margin:0px 20px 10px 33px') 不懂设计，只追求简约
+                        p(style='margin:0px 20px 20px 57px') 有梦想，爱自由
+                        p(style='margin:30px 20px 10px 60px;font-size: 1.3em;' ) 本站QQ群：
+                        p(style='margin:0px 20px 0px 60px;' ) 123456789
         #mymodalfb.modal.fade(tabindex='-1' role='dialog' aria-labelledby='myModalLabel')
             .modal-dialog(role='document')
                 .modal-content
@@ -88,8 +96,6 @@ html
                     .modal-footer
                         button.btn.btn-default(data-dismiss='modal') 关闭
                         button.btn.btn-primary 保存
-
-
 
 
 
