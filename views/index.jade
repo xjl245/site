@@ -53,6 +53,11 @@ html
                     .bar6
                         input.myinput(placeholder="影片名称")
                         button.mybutton 搜索
+                .row(style='margin-top:2px')
+                    p(style='font-size: 0.9em;') 建于 2017-6-1
+                    p(style='font-size: 0.9em;') 欢迎爱影人士加入本站qq群:123456789
+        footer(style='text-align:center;')
+            p(style='font-size: 0.8em;') ©2017 京ICP证030173号  京公网安备11000002000001号 如有侵权请联系删除
         #mymodalfb.modal.fade(tabindex='-1' role='dialog' aria-labelledby='myModalLabel')
             .modal-dialog(role='document')
                 .modal-content
@@ -66,8 +71,7 @@ html
                             input.form-control(type='text' placeholder="请留下您的邮箱，以便我们及时回复您。")
                         .form-group
                             label.control-label 反馈内容:
-                            textarea.form-control(rows='8' placeholder="欢迎您在使用过程中提出宝贵的建议，感谢对本站的支持。(必填)")
-
+                            textarea.form-control(rows='8' placeholder="本站是个人开发，可能会有一些bug没有发现，欢迎您在使用过程中提出宝贵的建议，感谢对本站的支持。(必填)")
                     .modal-footer
                         button.btn.btn-default(data-dismiss='modal') 关闭
                         button.btn.btn-primary 保存
